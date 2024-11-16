@@ -1,28 +1,30 @@
+/* Estilo general */
 body {
-    background-color: #f5f5f5;
-    font-family: monospace;
-    text-align: center;
+    background-color: black;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     margin: 0;
-    padding: 20px;
 }
 
-pre {
+#ascii-art {
+    white-space: pre;
     font-size: 12px;
     line-height: 1;
-    white-space: pre;
-    margin: 0 auto;
+    text-align: center;
 }
 
-.text {
-    margin-top: 20px;
-    font-size: 18px;
-    color: #555;
+/* Estilo del encabezado */
+h1 {
+    font-size: 24px;
+    font-family: 'Press Start 2P', sans-serif;
+    color: red;
+    margin-bottom: 20px;
 }
 
-.color-black {
-    color: black;
-}
-
-.color-pink {
-    color: pink;
-}
+/* Importar fuente retro */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
