@@ -1,4 +1,3 @@
-// Arte ASCII con colores aplicados a las mejillas y ojos
 const art = `
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -55,5 +54,4 @@ const art = `
                                 -%@@@*=:...=%@@@@@@@#*-       .+#######%+=:.                             
                                   -%@@@@@@@@@@+:....                                           
 `;
-
-document.getElementById('ascii-art').innerHTML = art;
+document.getElementById('ascii-art').innerText = art;
